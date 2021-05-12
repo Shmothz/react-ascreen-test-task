@@ -13,16 +13,16 @@ import Preview from './components/Preview/Preview';
 function App() {
   return <div className="App">
     <BrowserRouter>
-      <Preview />
       <Switch>
-        <Route path='Лявочорр' render={() => <LavoMountain />}/>
-        <Route path='Часначорр' render={() => <ChasnaMountain />} />
-        <Route path='Кукисвумчорр' render={() => <KukiMountain />} />
-        <Route path='Ферсмана' render={() => <FersMountain />} />
-        <Route path='Юдычвумчорр' render={() => <UdichMountain />} />
-        <Route path='Тахтарвумчорр' render={() => <TahtarMountain />} />
-        <Route path='Вудъяврчорр' render={() => <WoodMountain />} />
-        <Route path='Айкуайвенчорр' render={() => <AikyMountain />} />
+        <Route exact path='/' render={() => <Preview />} />
+        <Route path='/lavo' render={() => <LavoMountain />}/>
+        <Route path='/chasna' render={() => <ChasnaMountain />} />
+        <Route path='/kuki' render={() => <KukiMountain />} />
+        <Route path='/fers' render={() => <FersMountain />} />
+        <Route path='/udich' render={() => <UdichMountain />} />
+        <Route path='/tahtar' render={() => <TahtarMountain />} />
+        <Route path='/wood' render={() => <WoodMountain />} />
+        <Route path='/aiky' render={() => <AikyMountain />} />
       </Switch>
     </BrowserRouter>
   </div>;
