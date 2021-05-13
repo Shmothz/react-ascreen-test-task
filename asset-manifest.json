@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/react-ascreen-test-task/static/css/main.d2777c05.chunk.css",
+    "main.js": "/react-ascreen-test-task/static/js/main.9945961a.chunk.js",
+    "main.js.map": "/react-ascreen-test-task/static/js/main.9945961a.chunk.js.map",
+    "runtime-main.js": "/react-ascreen-test-task/static/js/runtime-main.47dadc1e.js",
+    "runtime-main.js.map": "/react-ascreen-test-task/static/js/runtime-main.47dadc1e.js.map",
+    "static/css/2.a1d6e8b2.chunk.css": "/react-ascreen-test-task/static/css/2.a1d6e8b2.chunk.css",
+    "static/js/2.aba405e5.chunk.js": "/react-ascreen-test-task/static/js/2.aba405e5.chunk.js",
+    "static/js/2.aba405e5.chunk.js.map": "/react-ascreen-test-task/static/js/2.aba405e5.chunk.js.map",
+    "static/js/3.9900d78c.chunk.js": "/react-ascreen-test-task/static/js/3.9900d78c.chunk.js",
+    "static/js/3.9900d78c.chunk.js.map": "/react-ascreen-test-task/static/js/3.9900d78c.chunk.js.map",
+    "index.html": "/react-ascreen-test-task/index.html",
+    "static/css/2.a1d6e8b2.chunk.css.map": "/react-ascreen-test-task/static/css/2.a1d6e8b2.chunk.css.map",
+    "static/css/main.d2777c05.chunk.css.map": "/react-ascreen-test-task/static/css/main.d2777c05.chunk.css.map",
+    "static/js/2.aba405e5.chunk.js.LICENSE.txt": "/react-ascreen-test-task/static/js/2.aba405e5.chunk.js.LICENSE.txt",
+    "static/media/05lyavochorr.51a0afaa.png": "/react-ascreen-test-task/static/media/05lyavochorr.51a0afaa.png",
+    "static/media/06kykisvymchorr.8edfb31d.png": "/react-ascreen-test-task/static/media/06kykisvymchorr.8edfb31d.png",
+    "static/media/07tahtarvymchorr.cbb0c855.png": "/react-ascreen-test-task/static/media/07tahtarvymchorr.cbb0c855.png",
+    "static/media/08aikyivenchorr.e23c8a91.png": "/react-ascreen-test-task/static/media/08aikyivenchorr.e23c8a91.png",
+    "static/media/landscape 1.da17f80d.png": "/react-ascreen-test-task/static/media/landscape 1.da17f80d.png",
+    "static/media/mountain1.bdf4f8bb.jpg": "/react-ascreen-test-task/static/media/mountain1.bdf4f8bb.jpg",
+    "static/media/mountain2.48756b56.jpg": "/react-ascreen-test-task/static/media/mountain2.48756b56.jpg",
+    "static/media/mountain3.23de3d20.jpg": "/react-ascreen-test-task/static/media/mountain3.23de3d20.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47dadc1e.js",
+    "static/css/2.a1d6e8b2.chunk.css",
+    "static/js/2.aba405e5.chunk.js",
+    "static/css/main.d2777c05.chunk.css",
+    "static/js/main.9945961a.chunk.js"
+  ]
+}
