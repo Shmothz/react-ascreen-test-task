@@ -24,11 +24,11 @@ const Preview = () => {
   )
   const style = objStyles()
   return <div className={style.previewWrapper}>
-    {getMountains.map(i => <MountainTab mountainImg={i.icon}
-                                        mountainName={i.mountainName}
-                                        pathTo={i.link}
-                                        positionTop={i.position.top}
-                                        positionLeft={i.position.left}/>)}
+    {Object.keys(getMountains).map(i => <MountainTab mountainImg={getMountains[i].icon}
+                                        mountainName={getMountains[i].mountainName}
+                                        pathTo={getMountains[i].link}
+                                        positionTop={getMountains[i].position.top}
+                                        positionLeft={getMountains[i].position.left}/>)}
   </div>
 }
 

@@ -8,8 +8,8 @@ import TahtarImg from '../assets/img/07tahtarvymchorr.png'
 import UdichImg from '../assets/img/03udichvymchorr.png'
 import WoodImg from '../assets/img/08aikyivenchorr.png'
 
-const arrMountains = [
-  {
+const initialState = {
+  lavo: {
     mountainName: 'Лявочорр',
     aboutThisMountain: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem et hic maiores placeat quas quidem quis, ratione reprehenderit rerum, suscipit voluptas! Aut autem explicabo modi quo voluptatem! Earum, suscipit?',
     link: '/lavo',
@@ -17,14 +17,9 @@ const arrMountains = [
     position: {
       top: '0',
       left: '1000'
-    },
-    photos: {
-      firstPhoto: '',
-      secondPhoto: '',
-      thirdPhoto: ''
     }
   },
-  {
+  aiky: {
     mountainName: 'Айкуайвенчорр',
     aboutThisMountain: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem et hic maiores placeat quas quidem quis, ratione reprehenderit rerum, suscipit voluptas! Aut autem explicabo modi quo voluptatem! Earum, suscipit?',
     link: '/aiky',
@@ -32,14 +27,9 @@ const arrMountains = [
     position: {
       top: '760',
       left: '950'
-    },
-    photos: {
-      firstPhoto: '',
-      secondPhoto: '',
-      thirdPhoto: ''
     }
   },
-  {
+  chasna: {
     mountainName: 'Часначорр',
     aboutThisMountain: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem et hic maiores placeat quas quidem quis, ratione reprehenderit rerum, suscipit voluptas! Aut autem explicabo modi quo voluptatem! Earum, suscipit?',
     link: '/chasna',
@@ -47,14 +37,9 @@ const arrMountains = [
     position: {
       top: '200',
       left: '440'
-    },
-    photos: {
-      firstPhoto: '',
-      secondPhoto: '',
-      thirdPhoto: ''
     }
   },
-  {
+  fers: {
     mountainName: 'Ферсмана',
     aboutThisMountain: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem et hic maiores placeat quas quidem quis, ratione reprehenderit rerum, suscipit voluptas! Aut autem explicabo modi quo voluptatem! Earum, suscipit?',
     link: '/fers',
@@ -62,14 +47,9 @@ const arrMountains = [
     position: {
       top: '360',
       left: '300'
-    },
-    photos: {
-      firstPhoto: '',
-      secondPhoto: '',
-      thirdPhoto: ''
     }
   },
-  {
+  kuki: {
     mountainName: 'Кукисвумчорр',
     aboutThisMountain: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem et hic maiores placeat quas quidem quis, ratione reprehenderit rerum, suscipit voluptas! Aut autem explicabo modi quo voluptatem! Earum, suscipit?',
     link: '/kuki',
@@ -77,14 +57,9 @@ const arrMountains = [
     position: {
       top: '260',
       left: '800'
-    },
-    photos: {
-      firstPhoto: '',
-      secondPhoto: '',
-      thirdPhoto: ''
     }
   },
-  {
+  tahtar: {
     mountainName: 'Тахтарвумчорр',
     aboutThisMountain: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem et hic maiores placeat quas quidem quis, ratione reprehenderit rerum, suscipit voluptas! Aut autem explicabo modi quo voluptatem! Earum, suscipit?',
     link: '/tahtar',
@@ -92,14 +67,9 @@ const arrMountains = [
     position: {
       top: '510',
       left: '640'
-    },
-    photos: {
-      firstPhoto: '',
-      secondPhoto: '',
-      thirdPhoto: ''
     }
   },
-  {
+  udich: {
     mountainName: 'Юдычвумчорр',
     aboutThisMountain: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem et hic maiores placeat quas quidem quis, ratione reprehenderit rerum, suscipit voluptas! Aut autem explicabo modi quo voluptatem! Earum, suscipit?',
     link: '/udich',
@@ -107,14 +77,9 @@ const arrMountains = [
     position: {
       top: '360',
       left: '550'
-    },
-    photos: {
-      firstPhoto: '',
-      secondPhoto: '',
-      thirdPhoto: ''
     }
   },
-  {
+  wood: {
     mountainName: 'Вудъяврчорр',
     aboutThisMountain: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem et hic maiores placeat quas quidem quis, ratione reprehenderit rerum, suscipit voluptas! Aut autem explicabo modi quo voluptatem! Earum, suscipit?',
     link: '/wood',
@@ -122,13 +87,8 @@ const arrMountains = [
     position: {
       top: '730',
       left: '600'
-    },
-    photos: {
-      firstPhoto: '',
-      secondPhoto: '',
-      thirdPhoto: ''
     }
   }
-]
+}
 
- export const store = createStore(arrMountains)
+export const store = createStore(initialState)
