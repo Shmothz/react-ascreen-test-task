@@ -1,13 +1,10 @@
 import React from 'react'
 
-const AboutMountain = () => {
+const AboutMountain = ({mountainName, aboutThisMountain}) => {
   return (
     <div>
-      <h1>Заголовок</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem et hic maiores placeat quas quidem quis, ratione reprehenderit rerum, suscipit voluptas! Aut autem explicabo modi quo voluptatem! Earum, suscipit?</p>
-      <nav>
-
-      </nav>
+      <h1>{mountainName}</h1>
+      <p>{aboutThisMountain}</p>
     </div>
   )
 }
