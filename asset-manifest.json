@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/react-ascreen-test-task/static/css/main.cd8f3fde.chunk.css",
-    "main.js": "/react-ascreen-test-task/static/js/main.bc117730.chunk.js",
-    "main.js.map": "/react-ascreen-test-task/static/js/main.bc117730.chunk.js.map",
+    "main.js": "/react-ascreen-test-task/static/js/main.b5b7870a.chunk.js",
+    "main.js.map": "/react-ascreen-test-task/static/js/main.b5b7870a.chunk.js.map",
     "runtime-main.js": "/react-ascreen-test-task/static/js/runtime-main.2aa0b5a4.js",
     "runtime-main.js.map": "/react-ascreen-test-task/static/js/runtime-main.2aa0b5a4.js.map",
     "static/css/2.930bed6c.chunk.css": "/react-ascreen-test-task/static/css/2.930bed6c.chunk.css",
-    "static/js/2.00f5638c.chunk.js": "/react-ascreen-test-task/static/js/2.00f5638c.chunk.js",
-    "static/js/2.00f5638c.chunk.js.map": "/react-ascreen-test-task/static/js/2.00f5638c.chunk.js.map",
+    "static/js/2.4b8df725.chunk.js": "/react-ascreen-test-task/static/js/2.4b8df725.chunk.js",
+    "static/js/2.4b8df725.chunk.js.map": "/react-ascreen-test-task/static/js/2.4b8df725.chunk.js.map",
     "static/js/3.d54ddc0f.chunk.js": "/react-ascreen-test-task/static/js/3.d54ddc0f.chunk.js",
     "static/js/3.d54ddc0f.chunk.js.map": "/react-ascreen-test-task/static/js/3.d54ddc0f.chunk.js.map",
     "index.html": "/react-ascreen-test-task/index.html",
     "static/css/2.930bed6c.chunk.css.map": "/react-ascreen-test-task/static/css/2.930bed6c.chunk.css.map",
     "static/css/main.cd8f3fde.chunk.css.map": "/react-ascreen-test-task/static/css/main.cd8f3fde.chunk.css.map",
-    "static/js/2.00f5638c.chunk.js.LICENSE.txt": "/react-ascreen-test-task/static/js/2.00f5638c.chunk.js.LICENSE.txt",
+    "static/js/2.4b8df725.chunk.js.LICENSE.txt": "/react-ascreen-test-task/static/js/2.4b8df725.chunk.js.LICENSE.txt",
     "static/media/05lyavochorr.51a0afaa.png": "/react-ascreen-test-task/static/media/05lyavochorr.51a0afaa.png",
     "static/media/06kykisvymchorr.8edfb31d.png": "/react-ascreen-test-task/static/media/06kykisvymchorr.8edfb31d.png",
     "static/media/07tahtarvymchorr.cbb0c855.png": "/react-ascreen-test-task/static/media/07tahtarvymchorr.cbb0c855.png",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.2aa0b5a4.js",
     "static/css/2.930bed6c.chunk.css",
-    "static/js/2.00f5638c.chunk.js",
+    "static/js/2.4b8df725.chunk.js",
     "static/css/main.cd8f3fde.chunk.css",
-    "static/js/main.bc117730.chunk.js"
+    "static/js/main.b5b7870a.chunk.js"
   ]
 }
