@@ -8,7 +8,7 @@ import {NavLink} from 'react-router-dom';
 
 const Mountain = ({mountain}) => {
 
-  const [visionMode, setVisionMode] = useState(false)
+  const [visionMode, setVisionMode] = useState(true)
 
   const objStyles = createUseStyles({
     mountainWrapper: {
@@ -17,15 +17,15 @@ const Mountain = ({mountain}) => {
     },
     aboutMountain: {
       backgroundColor: '#2170A1',
-      padding: '130px 100px 100px 100px',
-      width: '800px',
+      padding: '130px 0',
       float: 'right'
     },
     sliderWrapper: {
       backgroundColor: '#2170A1',
       position: 'relative',
       minWidth: '0',
-      height: '940px'
+      maxWidth: '100%',
+      overflow: 'hidden'
     },
     backBtn: {
       display: 'flex',

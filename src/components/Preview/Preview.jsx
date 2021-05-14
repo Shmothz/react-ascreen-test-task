@@ -1,7 +1,6 @@
 import React from 'react';
 import MountainTab from './MountainTab/MountainTab';
-
-import landScape from '../../assets/img/landscape 1.png'
+import landScape from '../../assets/img/landScape1.jpg'
 import {createUseStyles} from 'react-jss';
 import {useStore} from 'effector-react';
 import {store} from '../../effector/effector';
@@ -14,11 +13,14 @@ const Preview = () => {
       previewWrapper: {
         position: 'relative',
         width: '100%',
+        height: '100vh',
         background: {
-          color: 'yellow',
+          color: 'rgb(33, 112, 161)',
           image: `url(${landScape})`,
-          repeat: 'no-repeat'
-        }
+          repeat: 'no-repeat',
+          size: 'cover',
+        },
+        backgroundBlendMode: 'multiply'
       }
     }
   )
