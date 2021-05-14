@@ -3,8 +3,8 @@ import AboutMountain from '../AboutMountain/AboutMountain';
 import {createUseStyles} from 'react-jss';
 import backArrow from '../../assets/img/Polygon 1.png'
 import visionModeIcon from '../../assets/img/Group 12.png'
-import Slider from '../Slider/Slider';
 import {NavLink} from 'react-router-dom';
+import SliderConnectStore from '../Slider/SliderConnectStore';
 
 const Mountain = ({mountain}) => {
 
@@ -70,7 +70,7 @@ const Mountain = ({mountain}) => {
           <img src={backArrow} alt='back-arrow' className={style.backArrow}/>
         </NavLink>
 
-        <Slider />
+        <SliderConnectStore />
 
         <button className={style.visionModeBtn} onClick={() => {
           setVisionMode(!visionMode)
