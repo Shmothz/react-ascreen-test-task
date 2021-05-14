@@ -1,5 +1,5 @@
 import "./App.css";
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {BrowserRouter, HashRouter, Route, Switch} from 'react-router-dom';
 import Mountain from './components/Mountain/Mountain';
 import Preview from './components/Preview/Preview';
 import NotFound from './components/NotFound/NotFound';
@@ -11,7 +11,7 @@ function App() {
   const getMountains = useStore(store)
 
   return <div className="App">
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
         <Route exact path='/' render={() => <Preview />} />
         <Route exact path='/lavo' render={() => <Mountain mountain={getMountains.lavo} />}/>
@@ -24,7 +24,7 @@ function App() {
         <Route exact path='/aiky' render={() => <Mountain mountain={getMountains.aiky} />} />
         <Route path='/' render={() => <NotFound />}/>
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   </div>;
 }
 
