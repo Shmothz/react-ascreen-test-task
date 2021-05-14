@@ -15,13 +15,16 @@ const AboutMountain = ({mountainName, aboutThisMountain}) => {
       padding: '0 60px',
       height: '60vh',
       overflowY: 'scroll'
+    },
+    title: {
+      padding: '0 60px',
     }
   })
   const style = objStyles()
 
   return (
     <div className={style.textWrapper}>
-      <h1>{mountainName}</h1>
+      <h1 className={style.title}>{mountainName}</h1>
       <p className={style.text}>{aboutThisMountain}</p>
       <AboutMountainNav />
     </div>
