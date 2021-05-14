@@ -10,7 +10,7 @@ function App() {
 
   const getMountains = useStore(store)
 
-  return <div className="App">
+  return <div style={{maxWidth:'1920px', margin:'0 auto'}}>
     <HashRouter>
       <Switch>
         <Route exact path='/' render={() => <Preview />} />
